@@ -1,0 +1,30 @@
+#header {
+    height: 50px;
+    background-color: orange;
+}
+
+#item {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 45px;
+}
+
+.proj-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    margin-left: 20px;
+}
+
+.date {
+    margin-right: 20px;
+}
+
+.desc {
+    margin-left: 20px;
+}
