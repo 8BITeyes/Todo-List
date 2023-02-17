@@ -5,14 +5,30 @@
     <title>Document</title>
   </head>
   <body>
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
     <div id="header"></div>
-    <div id="item">
+    <div class="todo">
       <div class="proj-header">
         <h3 class="title">Test Project</h3>
         <div class="date">01/05/23</div>
       </div>
       <div class="desc">Finish this by the 5th</div>
     </div>
+    <div id="form">
+      <div class="form-input">
+        <label for="title">Title: </label>
+        <input type="text" for="title" id="title" />
+      </div>
+      <div class="form-input">
+        <label for="date">Due Date: </label>
+        <input type="text" for="date" id="date" />
+      </div>
+      <div class="form-input">
+        <label for="desc">Description: </label>
+        <input type="text" for="desc" id="desc" />
+      </div>
+      <button id="form-submit">Submit</button>
+    </div>
+    <button id="btn">+</button>
   </body>
 </html>
