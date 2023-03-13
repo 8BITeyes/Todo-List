@@ -3,9 +3,9 @@
     background-color: orange;
 }
 
-#item {
+.todo {
     width: 500px;
-    height: 300px;
+    height: auto;
     border: 1px solid black;
     margin: 45px;
 }
@@ -27,4 +27,48 @@
 
 .desc {
     margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#form {
+    position: relative;
+    margin-left: 45px;
+    width: 500px;
+    height: auto;
+    background-color: orange;
+    display: none;
+    flex-direction: column;
+}
+
+.form-input {
+    display: flex;
+    width: auto;
+    height: 50px;
+    align-items: center;
+}
+
+label {
+    display: flex;
+    width: 100px;
+}
+
+#form-submit {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    cursor: pointer;
+    width: 100px;
+    bottom: 10px;
+    right: 15px;
+}
+
+#btn {
+    height: 65px;
+    width: 65px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 100px;
+    background-color: orange;
+    cursor: pointer;
 }
